@@ -13,7 +13,7 @@ int main(){
   scanf("%s", c);
 
   size = strlen(c);
-  is_pal = is_palindrome(c, 0 , size);
+  is_pal = is_palindrome(c, 0, size);
 
   if(is_pal == 1){
     printf("%s", "The string you entered is a palindrome!\n");
